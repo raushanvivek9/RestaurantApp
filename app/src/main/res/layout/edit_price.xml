@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Menu Item:"
+        android:textColor="@color/text_color"/>
+
+    <Spinner
+        android:id="@+id/menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:background="@drawable/rount_textbox"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter New Price:"
+        android:textColor="@color/text_color"/>
+
+    <EditText
+        android:id="@+id/new_price"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:hint="New Price"
+        android:background="@drawable/rount_textbox"
+        android:ems="10"
+        android:inputType="number" />
+
+</LinearLayout>

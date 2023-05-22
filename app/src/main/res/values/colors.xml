@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="sky">#A5ACAD</color>
+    <color name="text_color">#000000</color>
+    <color name="colorAccentLight">#ab47bc</color>
+    <color name="white">#ffff</color>
+    <color name="Colorgradient">#724223</color>
+    <color name="endColorgradient">#e8a564</color>
+    <color name="addback">#92FFF18F</color>
+    <color name="logout_btn">#E1F84409</color>
+
+
+    <color name="colorAccentDark">#7B1FA2</color>
+    <color name="backgroundcolor">#AB363535</color>
+    <color name="green">#2ECF23</color>
+    <color name="red">#D82323</color>
+    <color name="yellow">#F4FF81</color>
+    <color name="noti">#C38E0A</color>
+</resources>

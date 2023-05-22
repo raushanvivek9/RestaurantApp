@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.restaurant">
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Help"
+            android:parentActivityName=".Help"></activity>
+        <activity android:name=".Restaurant.Otp_Verfication" />
+        <activity
+            android:name=".AddMenu"
+            android:parentActivityName=".AddMenu" />
+        <activity android:name=".About"
+            android:parentActivityName=".About"/>
+        <activity
+            android:name=".Account"
+            android:parentActivityName=".Account" />
+        <activity
+            android:name=".TrainEnq"
+            android:parentActivityName=".TrainEnq" />
+        <activity
+            android:name=".ChangeMenu"
+            android:parentActivityName=".ChangeMenu" />
+        <activity
+            android:name=".Menu"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Order"
+            android:parentActivityName=".Order" />
+        <activity
+            android:name=".Restaurant.Main2Activity"
+            android:label="@string/title_activity_main2" />
+        <activity android:name=".Restaurant.Sign" />
+        <activity android:name=".Restaurant.User_login" />
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/foodapplogo" />
+    </application>
+
+</manifest>
